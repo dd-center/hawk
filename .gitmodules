@@ -1,0 +1,6 @@
+[submodule "state-center"]
+	path = state-center
+	url = https://github.com/dd-center/state-center.git
+[submodule "dictionary"]
+	path = dictionary
+	url = https://github.com/dd-center/dictionary.git
