@@ -1,9 +1,8 @@
-import { join } from 'path'
+import { join, dirname } from 'path'
 import nodejieba from 'nodejieba'
-import CState from 'state-center'
+import CState from './state-center'
 import socket from './vd.js'
 import { fileURLToPath } from 'url'
-import { dirname } from 'path'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
