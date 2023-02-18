@@ -1,6 +1,6 @@
 import { join, dirname } from 'path'
 import nodejieba from 'nodejieba'
-import CState from './state-center'
+import CState from './state-center/api.js'
 import socket from './vd.js'
 import { fileURLToPath } from 'url'
 
